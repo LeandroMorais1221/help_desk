@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="css/pico.min.css">
+</head>
+<body>
+
+<main>
+  <section class="container">
+    <hgroup>
+      <h1>Login</h1>
+      <p>Entre na sua conta</p>
+    </hgroup>
+
+    <form action="/login" method="POST">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+
+      <label for="password">Senha</label>
+      <input type="password" id="password" name="password" placeholder="********" required>
+
+      <button type="submit">Entrar</button>
+    </form>
+
+    <p>Não tem uma conta? <a href="/cadastrar">Cadastre-se</a></p>
+  </section>
+</main>
+
+</body>
+</html>
